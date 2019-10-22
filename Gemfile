@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
-
+gem 'bundler', '>=1.8.4'
 ruby '2.5.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -71,3 +71,6 @@ end
 
 gem 'simple_form'
 gem 'devise'
+gem 'carrierwave', '~> 2.0'
+gem "figaro"
+gem "fog-aws"
